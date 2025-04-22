@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pokemonPicture"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            />
+
+
+        <TextView
+            android:id="@+id/pokemonName"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:text="pokeball"
+            android:textSize="22sp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pokemonSpeedValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:text="speed"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/pokemonHPValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:text="HP"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/pokemonAttackValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:text="Attack"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/pokemonDefenseValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_marginEnd="20dp"
+                    android:text="Defense"
+                    android:textSize="16sp" />
+
+        </LinearLayout>
+
+</LinearLayout>

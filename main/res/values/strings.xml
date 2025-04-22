@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Middle Test</string>
+    <string-array name="languages">
+        <item>english</item>
+        <item>japanese</item>
+        <item>chinese</item>
+        <item>french</item>
+    </string-array>
+</resources>
